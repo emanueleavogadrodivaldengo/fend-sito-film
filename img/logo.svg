@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" rx="8" fill="#0F171E"/>
+  <polygon points="20,12 20,48 42,30" fill="#00A8E1"/>
+  <text x="52" y="38" font-family="Segoe UI, system-ui, sans-serif" font-size="22" fill="#ffffff" font-weight="300">prime<tspan font-weight="700">stream</tspan></text>
+</svg>
