@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeStream — Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="topbar">
+        <div class="topbar-brand">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">prime<strong>stream</strong></span>
+        </div>
+        <nav style="display: flex; gap: 28px;">
+            <a href="index.html" class="topbar-link active">🔥 TRENDING</a>
+            <a href="film.html" class="topbar-link">🎬 FILM</a>
+            <a href="serie.html" class="topbar-link">📺 SERIE TV</a>
+            <a href="profile.html" class="topbar-link">👤 PROFILO</a>
+        </nav>
+    </header>
+
+    <div style="margin: auto; padding-left: 40px; overflow: visible;">
+        <h1 class="sezione-titolo">Film trending della settimana</h1>
+        <div id="film" style="display:flex; gap: 20px; flex-wrap: nowrap; overflow-x: auto; padding: 60px 20px; scrollbar-width: none;">        
+        </div>
+
+        <h1 class="sezione-titolo">Serie TV trending della settimana</h1>
+        <div id="serie" style="display:flex; gap: 20px; flex-wrap: nowrap; overflow-x: auto; padding: 60px 20px; scrollbar-width: none;">        
+        </div>
+    </div>
+
+    <footer class="app-footer">
+        <p class="footer-brand">▶ prime<strong>stream</strong></p>
+
+        <div class="footer-links">
+            <a href="index.html">Trending</a>
+            <a href="film.html">Film</a>
+            <a href="serie.html">Serie TV</a>
+            <a href="profile.html">Profilo</a>
+        </div>
+
+        <p class="footer-copy">© 2025 PrimeStream · Progetto scolastico · Dati forniti da TMDB</p>
+    </footer>
+
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

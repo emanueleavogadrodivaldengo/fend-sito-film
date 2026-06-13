@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimeStream — Profilo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Stili specifici per la pagina profilo */
+        .profilo-main { max-width: 650px; margin: 60px auto; padding: 0 24px; }
+        .profilo-header { display: flex; align-items: center; gap: 24px; }
+        .profilo-avatar {
+            width: 130px; height: 130px;
+            border-radius: 50%; object-fit: cover;
+            border: 3px solid #00a8e1;
+            box-shadow: 0 0 20px rgba(0, 168, 225, 0.3);
+        }
+        .profilo-nome { font-size: 36px; margin: 0; color: #fff; }
+        .profilo-sub { font-size: 18px; margin: 4px 0 0; color: #888; }
+        .profilo-desc { font-size: 17px; margin-top: 24px; line-height: 1.7; color: #ccc; }
+        .profilo-gh {
+            display: flex; align-items: center; gap: 14px;
+            border: 1px solid #333; border-radius: 12px;
+            padding: 16px 22px; text-decoration: none; color: white;
+            margin-top: 24px; transition: border-color 0.3s, box-shadow 0.3s;
+        }
+        .profilo-gh:hover {
+            border-color: #00a8e1;
+            box-shadow: 0 0 12px rgba(0, 168, 225, 0.2);
+        }
+        .profilo-gh span.gh-label { color: #888; font-size: 13px; }
+    </style>
+</head>
+<body>
+    <header class="topbar">
+        <div class="topbar-brand">
+            <span class="brand-icon">▶</span>
+            <span class="brand-text">prime<strong>stream</strong></span>
+        </div>
+        <nav style="display: flex; gap: 28px;">
+            <a href="index.html" class="topbar-link">🔥 TRENDING</a>
+            <a href="film.html" class="topbar-link">🎬 FILM</a>
+            <a href="serie.html" class="topbar-link">📺 SERIE TV</a>
+            <a href="profile.html" class="topbar-link active">👤 PROFILO</a>
+        </nav>
+    </header>
+
+    <main class="profilo-main">
+        <div class="profilo-header">
+            <img src="img/avatar.png" class="profilo-avatar" alt="Avatar profilo">
+            <div>
+                <h1 class="profilo-nome">Emanuele Avogadro</h1>
+                <p class="profilo-sub">Progetto Streaming App (stile Prime Video)</p>
+            </div>
+        </div>
+
+        <p class="profilo-desc">Applicazione web per esplorare il catalogo cinematografico tramite le API di <strong>TMDB</strong>. Permette di scoprire film e serie TV di tendenza, visualizzare dettagli, valutazioni e informazioni complete.</p>
+
+        <a href="https://github.com/emanueleavogadrodivaldengo/git-emavodevops-app.git" target="_blank" class="profilo-gh">
+            <span style="font-size: 28px;">🔗</span>
+            <div style="font-size: 17px;">
+                <strong>Repository GitHub</strong><br>
+                <span class="gh-label">github.com/emanueleavogadrodivaldengo/git-emavodevops-app</span>
+            </div>
+        </a>
+    </main>
+
+    <footer class="app-footer">
+        <p class="footer-brand">▶ prime<strong>stream</strong></p>
+
+        <div class="footer-links">
+            <a href="index.html">Trending</a>
+            <a href="film.html">Film</a>
+            <a href="serie.html">Serie TV</a>
+            <a href="profile.html">Profilo</a>
+        </div>
+
+        <p class="footer-copy">© 2025 PrimeStream · Progetto scolastico · Dati forniti da TMDB</p>
+    </footer>
+</body>
+</html>
