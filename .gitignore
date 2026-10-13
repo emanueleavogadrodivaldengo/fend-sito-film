@@ -1,3 +1,6 @@
 # File di sistema
 .DS_Store
 Thumbs.db
+
+# Credenziali TMDB: ognuno crea il proprio file partendo da js/config.example.js
+js/config.js
